@@ -21,8 +21,9 @@ class ViewController: UIViewController {
     @IBAction func alertBtn(_ sender: Any) {
         
         let check = MyNewFramework()
+        check.showAlert(viewController: self)
         
-        check.showAlert(alert: "Hi", viewController: self)
+       // check.showAlert(alert: "Hi", viewController: self)
     }
     
 }
